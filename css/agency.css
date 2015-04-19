@@ -1,10 +1,22 @@
 .brief {
   background: rgb(177, 170, 170);
   padding: 20px 20px 20px 20px;
-  opacity: 0.9;
+  opacity: 0.7;
   border-radius: 20px;
   color: black;
   top: -110px;
+}
+
+span#lj {
+ position: relative;
+ top: -36px;
+ left: 45px;
+}
+
+img#ljc {
+  width: 35px;
+  position: relative;
+  top: -7px;
 }
 
 .navbar-inverse .navbar-brand {
