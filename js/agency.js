@@ -24,3 +24,20 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+
+angular.module('ljc', ['ngRoute'])
+	.controller('alumniCtrl', ['$scope', function ($scope) {
+		console.log('I love Famakinde Olatoyosi');
+		
+	}])
+	.config(function ($routeProvider) {
+	  $routeProvider
+	    .when('/', {
+	      templateUrl: '../index.html'
+	    })
+	    .otherwise({
+	      redirectTo: '/'
+	    });
+	});
